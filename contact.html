@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | M I Boutique</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #fff9f9;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background-color: #f7e1e1;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      color: #b84c65;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #b84c65;
+    }
+
+    /* Contact Section */
+    .contact {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .contact h2 {
+      color: #b84c65;
+      margin-bottom: 20px;
+    }
+    .contact p {
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    /* Contact Form */
+    form {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #fef2f2;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+    }
+    form button {
+      background-color: #b84c65;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    form button:hover {
+      background-color: #a43d56;
+    }
+
+    /* Contact Info */
+    .info {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .info a {
+      color: #b84c65;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .info a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #b84c65;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>M I Boutique</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Whether it’s a custom order, size query, or design idea — we’re just a message away. 💌</p>
+  </section>
+
+  <!-- Contact Form -->
+  <form onsubmit="sendMessage(event)">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+    <textarea id="message" rows="5" placeholder="Your Message..." required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <!-- Info Section -->
+  <div class="info">
+    <p>📞 Phone: <a href="tel:+917382117387">+91 7382117387</a></p>
+    <p>💬 WhatsApp: <a href="https://wa.me/917569878092" target="_blank">Chat with Us</a></p>
+    <p>📧 Email: <a href="mailto:miboutique0316@gmail.com">miboutique@gmail.com</a></p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 M I Boutique | Designed by Mohan & Indhu 💕</p>
+  </footer>
+  <script src="assets/js/contact.js"></script>
+</body>
+</html>

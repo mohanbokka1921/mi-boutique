@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Dancing+Script:wght@400..700&family=Fleur+De+Leah&family=Outfit:wght@100..900&family=Pacifico&family=Playwrite+HU:wght@100..400&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+.mi {
+    color: #b84c65;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
